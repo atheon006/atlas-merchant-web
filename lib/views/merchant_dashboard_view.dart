@@ -18,7 +18,7 @@ class _MerchantDashboardViewState extends State<MerchantDashboardView> {
     });
     ScaffoldMessenger.of(context).showSnackBar(
       const SnackBar(
-        content: Text("Un motard ATLAS est en route pour récupérer la commande !"),
+        content: Text("Un livreur ATLAS est en route pour récupérer la commande !"),
         backgroundColor: Colors.green,
       ),
     );
@@ -147,7 +147,7 @@ class _MerchantDashboardViewState extends State<MerchantDashboardView> {
                               children: const [
                                 Icon(Icons.two_wheeler, size: 14, color: AppTheme.textSecondary),
                                 SizedBox(width: 4),
-                                Text('3 motards disponibles aux alentours', style: TextStyle(fontSize: 10, color: AppTheme.textSecondary)),
+                                Text('3 livreurs disponibles aux alentours', style: TextStyle(fontSize: 10, color: AppTheme.textSecondary)),
                               ],
                             ),
                           ],
@@ -169,7 +169,7 @@ class _MerchantDashboardViewState extends State<MerchantDashboardView> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Text(
-                            _isReadyForPickup ? 'Motard assigné !' : 'Prêt pour retrait motard',
+                            _isReadyForPickup ? 'Livreur assigné !' : 'Prêt pour retrait livreur',
                             style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 12),
                           ),
                           if (!_isReadyForPickup) ...[

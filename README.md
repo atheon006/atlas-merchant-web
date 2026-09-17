@@ -18,7 +18,7 @@
 
 ## ✨ Fonctionnalités Clés
 
-*   🔔 **Commandes Entrantes** : Alertes instantanées pour les nouvelles commandes payées (via KPay/M-Pesa) et appel automatisé d'un motard ATLAS.
+*   🔔 **Commandes Entrantes** : Alertes instantanées pour les nouvelles commandes payées (via KPay/M-Pesa) et appel automatisé d'un livreur ATLAS.
 *   📦 **Gestion des Stocks** : Mise à jour rapide des prix (en FC) et de la quantité d'articles disponibles.
 *   📊 **Analytiques & Gains** : Suivi du chiffre d'affaires, des taux de réussite de livraison et des paiements reçus.
 *   🚦 **Statut Boutique** : Mode "Ouvert" ou "Fermé" pour activer/désactiver temporairement la visibilité sur l'App Client.
